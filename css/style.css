@@ -1,0 +1,47 @@
+/* Variable */
+
+:root {
+    --primary-color: #401f7c;
+    --bg-secondary: #f4f4f4;
+}
+html {
+    background-color: var(--bg-secondary);
+    height: 100vh;
+}
+/* Buttons */
+
+.bg-secondary {
+    background-color: var(--bg-secondary) !important;
+}
+.btn-primary, .btn-primary:hover {
+    background-color: var(--primary-color);
+    border: 0;
+}
+/* Form */
+
+.form-login {
+    max-width: 330px;
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+}
+
+.d-flex {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 93vh;
+}
+
+/*Checkbox */
+
+.checkbox {
+    text-align: left !important;
+    width: 300px;
+}
+
+/* Footer */
+
+.main-footer {
+    color: var(--primary-color);
+}
